@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tlo">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editTextWpisane"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="8dp"
+            android:inputType="number"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textConvert" />
+
+        <TextView
+            android:id="@+id/textViewWyswietlone"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/et_bg_black"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonPrzelicz" />
+
+        <Button
+            android:id="@+id/buttonPrzelicz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="260dp"
+            android:background="@drawable/przeliczselector"
+            android:onClick="onClickPrzelicz"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextWpisane"
+            app:layout_constraintVertical_bias="0.098" />
+
+        <RadioGroup
+            android:id="@+id/RGwaga"
+            android:layout_width="96dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="132dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/et_bg_black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.166"
+            app:layout_constraintStart_toEndOf="@+id/textConvert"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RadioButton
+                android:id="@+id/lbs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="WagaButtonLicz"
+                android:paddingRight="30dp"
+                android:text="LBS"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/kg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:onClick="WagaButtonLicz"
+                android:paddingRight="30dp"
+                android:text="KG"
+                android:textColor="@color/white" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textConvert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/et_bg_black"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/convert_to"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.216"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forgot_password">Przypomnij hasło</string>
+    <string name="Register">Rejestracja</string>
+    <string name="remember_data">Zapamiętaj dane</string>
+    <string name="password">Hasło</string>
+    <string name="email">Email</string>
+    <string name="user_name">Nazwa użytkownika</string>
+    <string name="convert_to">Konwertuj na :</string>
+    <string name="breakfast">ŚNIADANIE</string>
+    <string name="dinner">OBIAD</string>
+    <string name="supper">KOLACJA</string>
+    <string name="zjedzone_box">Zjedzone !</string>
+    <string name="dietetyczne_porady">Dietetyczne Porady</string>
+    <string name="do_u_know">Czy wiesz, że...</string>
+    <string name="losuj_porade">LOSUJ PORADE</string>
+    <string name="obwody">Obwody</string>
+    <string name="confirm">Zatwierdź</string>
+    <string name="pomiar_ciala">Pomiar ciała</string>
+    <string name="cancel">Anuluj</string>
+    <string name="stopwatch">Stoper</string>
+    <string name="add">Dodaj</string>
+    <string name="support_message">Tutaj możesz zgłosić uwagi/błędy naszej aplikacji do supportu.</string>
+    <string name="send">Wyślij</string>
+    <string name="sign_as">Zalogowany jako :</string>
+    <string name="zawartosctluszczu">Zawartość tłuszczu (%)</string>
+    <string name="last">Ostatni</string>
+    <string name="current">Aktualny</string>
+    <string name="waga">Waga</string>
+    <string name="Height">Wysokosc</string>
+    <string name="delete_account">Usuń konto</string>
+    <string name="logout">Wyloguj</string>
+    <string name="home_page">Strona główna</string>
+    <string name="maxrecords">Rekordy Silowe</string>
+    <string name="rekord">Wprowadź swój rekord</string>
+    <string name="Atlas">Atlas Ćwiczeń</string>
+    <string name="test">test</string>
+</resources>
